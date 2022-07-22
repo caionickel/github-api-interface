@@ -28,7 +28,7 @@ const Repositories = () => {
             <S.WrapperTab>Repositories</S.WrapperTab>
             <S.WrapperTab>Starred</S.WrapperTab>
           </S.WrapperTabList>
-          <S.WrapperTabPanel>
+          <S.WrapperTabPanel> 
             <S.WrapperList>
               {githubState.repositories.map((item) => (
                 <RepositoryItem
